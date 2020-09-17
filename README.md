@@ -1,7 +1,7 @@
 ### PETFUL
 Created by Seyi Ariyo and Wesley Rou
 
-[Live App](https://petful-client.ldail.now.sh/)
+[Live App](https://dsa-petful-wesley-seyi.vercel.app)
 
 # About
 At Petful, we believe every pet deserves a home
