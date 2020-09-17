@@ -1,0 +1,266 @@
+body {
+  background-color: #86b09b;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.yellowDivider {
+  background-color: #fde4b4;
+  height: 1px;
+  width: 100%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.extra30space {
+  margin: 30px 0px;
+}
+
+button {
+  text-decoration: none;
+  box-shadow: none;
+  text-shadow: none;
+  border: none;
+  text-align: center;
+  padding: 5px;
+}
+
+/* main */
+
+main {
+  margin-top: 150px;
+  padding: 0px 40px;
+}
+h1 {
+  color: white;
+  text-shadow: 5px 5px 5px #484848;
+  font-size: 80px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+h3 {
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.splash img {
+  max-width: 70vw;
+}
+
+/* JoinForm */
+label {
+  color: white;
+  font-weight: bold;
+  display: block;
+  font-size: 20px;
+}
+
+form {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.viewPets, .submit {
+  margin-top: 10px;
+}
+button {
+  display: block;
+}
+
+/* Queue */
+.personQueueList {
+  background-color: #fde4b4;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  border-bottom: 5px solid #ecc4ff;
+  padding-bottom: 10px;
+  z-index: 3;
+}
+
+.personQueueList ul {
+    display: flex;
+}
+
+.personQueueList li {
+  display: inline-block;
+}
+
+.joinSmall.bold {
+  margin-top: 5px;
+  font-size: 22px;
+}
+
+.joinSmall.bold:hover {
+  text-shadow: 0px 0px 10px black;
+}
+
+/* BigButton */
+
+.bigButton {
+  background-color: #ecc4ff;
+  color: black;
+  font-weight: bold;
+  width: 100%;
+  font-size: 32px;
+  border: 1px solid white;
+}
+
+.bigButton:hover {
+  background-color: #fde4b4;
+  cursor: pointer;
+}
+
+.bigButton.grayed {
+  background-color: gray;
+  cursor: default
+}
+
+/* AdoptedList */
+.adoptedList {
+  background-color: #8fc9ac;
+  border-top: 5px solid #fde4b4;
+  margin-top: 50px;
+}
+
+.adoptedList h4 {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 10px 0px;
+}
+
+.adoptedItem {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 90%;
+}
+
+.backgroundRow {
+  background-color: #fde4b4;
+  display: flex;
+}
+
+.adoptedItem img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+}
+
+.adoptedItem .nameInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50px;
+}
+
+.adoptedItem .nameInfo .petName, .adoptedItem .nameInfo .date {
+  font-size: 20px;
+}
+
+.adoptedItem .nameInfo .ownerName, .adoptedItem .nameInfo .time {
+  font-size: 15px;
+}
+
+.adoptedItem .date {
+  font-weight: bold;
+}
+
+.adoptedItem .timeAndDate {
+  display: flex;
+  flex-direction: column;
+}
+
+/* PetList */
+.petList h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 10px 0px;
+}
+
+.petItem {
+  background-color: #8fc9ac;
+  margin-bottom: 30px;
+  color: black;
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.petItem img {
+  float: left;
+  max-width: 150px;
+  margin-right: 10px;
+}
+
+.petItem button {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+}
+
+.petItem li {
+  margin-bottom: 4px;
+}
+
+.congratulations h4, .petList h4 {
+  font-weight: bold;
+  margin: 15px 0px;
+  font-size: 30px;
+}
+
+.congratulations {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.congratulations h3 { 
+  font-size: 60px;
+  font-weight: bold;
+  margin: 15px 0px;
+}
+
+.congratulations h5 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.congratulations a {
+  text-decoration: underline;
+}
