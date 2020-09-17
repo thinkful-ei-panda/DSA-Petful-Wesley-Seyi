@@ -1,5 +1,5 @@
 ### PETFUL
-Created by Scott Schroeder and Leon Dail
+Created by Seyi Ariyo and Wesley Rou
 
 [Live App](https://petful-client.ldail.now.sh/)
 
