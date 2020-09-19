@@ -1,5 +1,5 @@
 module.exports = {
-  API_ENDPOINT: 'https://secure-waters-44156.herokuapp.com',
+  API_ENDPOINT: 'https://secure-waters-44156.herokuapp.com/api/',
   NODE_ENV: process.env.NODE_ENV || 'development', 
   API_KEY: 'b9%dp&:gV%DFxkVLK-.N(T/~#59<D;+mB,g/j&='
 
