@@ -16,7 +16,7 @@ function PetItem(props) {
         <li>{props.breed}</li>
       </ul>
       <div className="clear description">{props.story}</div>
-      <button type="button" className={`bigButton adopt ${props.choiceTime ? '' : 'grayed' }`} onClick={(e) => {
+      <button type="button" className={`bigButton adopt ${props.choiceTime ? '' : 'hidden' }`} onClick={(e) => {
         e.preventDefault();
         if (props.newDog) {
           props.newDog();

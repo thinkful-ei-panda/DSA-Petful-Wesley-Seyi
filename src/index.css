@@ -107,8 +107,16 @@ button {
 }
 
 .personQueueList ul {
-    display: flex;
-}
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+
+  /* Take full size */
+  /* height: 100vh; */
+  width: 50%;
+  margin-bottom:30px;}
 
 .personQueueList li {
   display: inline-block;
@@ -142,6 +150,10 @@ button {
 .bigButton.grayed {
   background-color: gray;
   cursor: default
+}
+
+.bigButton.hidden {
+  display: none;
 }
 
 /* AdoptedList */

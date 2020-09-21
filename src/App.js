@@ -290,6 +290,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Queue people={this.state.people} getPeople={this.getPeople} />
+
         <Route exact path="/" render={() =>
           <Splash addToQueue={this.addToQueue} />} />
         <Route path="/pets" render={() =>

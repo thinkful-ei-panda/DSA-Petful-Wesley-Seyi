@@ -18,8 +18,8 @@ function Splash(props) {
       </div>
       <p className="petfulDescription">We match pets and people on a first-in first-out basis.</p>
       
-      <p className="petfulDescription">Put your name in the queue, and when it's your turn, come back 
-      and choose whether you want the next available dog,
+      <p className="petfulDescription">Put your name in the queue and then click "View Pets", and when it's your turn, you'll be prompted
+      to choose whether you want the next available dog,
         cat, or both!</p>
     <div className="yellowDivider extra30space"></div>
     <JoinForm addToQueue={props.addToQueue}/>

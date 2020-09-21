@@ -16,6 +16,7 @@ class Queue extends React.Component {
     let number = <h6 className="bold" key={Math.random()}>{this.state.people.length} people in the queue now</h6>;
     return number;
   }
+
   
   checkIfInQueue = () => {
     let inQueueText = <div><h6>You are not in the queue!</h6><Link to="/"><h6 className="bold joinSmall">Join!</h6></Link></div>
@@ -42,11 +43,16 @@ class Queue extends React.Component {
 
   render() {
     let people = this.props.people || [];
+    let info = people.map((person) => <li>{person.name}</li>)
+    console.log(info)
     return(
       <section className="personQueueList">
         {this.numberInQueue(people)}
         {this.checkIfInQueue(people)}
+        <ul>{info}</ul>
+
       </section>
+      
 
     );
   }

@@ -32,7 +32,7 @@ class PetList extends React.Component {
         <div className="yellowDivider"></div>
         <div className="adoptBoth">
           <h4>or</h4>
-          <button type="button" className={`bigButton adopt ${this.props.choiceTime ? '' : 'grayed' }`} onClick={() => {
+          <button type="button" className={`bigButton adopt ${this.props.choiceTime ? '' : 'hidden' }`} onClick={() => {
             this.props.adoptTime('both');
             this.props.newDog();
             this.props.newCat();
