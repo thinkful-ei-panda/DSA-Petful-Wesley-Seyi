@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 function Congratulations(props) {
   return (
     <main className="main congratulations">
-      <h3>Congratulations!!</h3>
+      <h4>Congratulations!!</h4>
       <div className="yellowDivider extra30space"></div>
       <h4>Thank you so much for adopting</h4>
       <h2>{props.petName}</h2>
